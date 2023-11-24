@@ -1,0 +1,44 @@
+нояб. 24, 2023 3:05:09 PM ReturnArrayString main
+INFO: получили содержимое текущей папки
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: AlternatingChars.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: contentFolder.txt
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: DZ_1.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: DZ_2.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: DZ_3.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: log.txt
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: log.txt.lck
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: PerviyMetod.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Polindrom.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: repeatWord.txt
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: ReturnArrayString.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: SjimanieChar.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Stepik1.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Task_2.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Task_2_2.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Task_3.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Task_3_2.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Task_4.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Task_5.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: ГОды.java
+нояб. 24, 2023 3:05:09 PM ReturnArrayString writeFile
+INFO: Данные успешно добавлены
