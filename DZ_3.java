@@ -3,7 +3,16 @@
 //  и значения аргументов и возвращает результат вычислений.
 // При неверно переданном операторе, программа должна вывести сообщение об ошибке "Некорректный оператор: 'оператор'".
 public class DZ_3 {
-    class Calculator {
+   public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        char op = '+';
+        Calculator calculator = new Calculator();
+        System.out.println(calculator.calculate(op, a, b));
+    }
+
+
+    static class Calculator {
         public int calculate(char op, int a, int b) {
             int result = 0;
             switch (op){
@@ -24,36 +33,10 @@ public class DZ_3 {
                     break;
                 }
                 default:{
-                    System.out.printf("Некорректный оператор: 'оператор'");}
+                    System.out.printf("Некорректный оператор: '%s'", op);
+                }
             }
             return result;
         }
-    
-    
-        
-    }
-    
-    // Не удаляйте этот класс - он нужен для вывода результатов на экран и проверки
-    static class Printer{ 
-        public static void main(String[] args) { 
-            int a = 0;
-            char op = ' ';
-            int b = 0;
-    
-            if (args.length == 0) {
-            // При отправке кода на Выполнение, вы можете варьировать эти параметры
-                a = 3;
-                op = '+';
-                b = 7;
-            } else {
-                a = Integer.parseInt(args[0]);
-                op = args[1].charAt(0);
-                b = Integer.parseInt(args[2]);
-            }
-    
-            Calculator calculator = new Calculator();
-            int result = calculator.calculate(op, a, b);
-            System.out.println(result);
-        }
-    }
+    } 
 }
