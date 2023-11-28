@@ -74,7 +74,8 @@ class BubbleSort { private static File log; private static FileWriter fileWriter
     }
 }
 
-class Printer{ public static void main(String[] args) { int[] arr = {};
+class Printer { 
+        public static void main(String[] args) { int[] arr = {};
 
             if (args.length == 0) {
                     arr = new int[]{9, 4, 8, 3, 1};
