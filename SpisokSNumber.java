@@ -4,15 +4,24 @@
 // Пройти по списку, найти и удалить целые числа.
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
+
 
 public class SpisokSNumber {
     
     static List<String> removeNumbers(List<String> array){
-        for(int i = 0 ; i < array.size() ; i++){
-            if(isNumber(array,i)){
-                array.remove(i);
-                i--;
+        // for(int i = 0 ; i < array.size() ; i++){
+        //     if(isNumber(array.get(i))){
+        //         array.remove(i);
+        //         i--;
+        //     }
+        // }
+        Iterator<String> iter = array.iterator();
+        while(iter.hasNext()){
+            if(isNumber(iter.next())){
+                iter.remove();
             }
         }
         return array;
@@ -20,9 +29,9 @@ public class SpisokSNumber {
 
     }
 
-    private static Boolean isNumber(List<String> array, int i) {
+    private static Boolean isNumber(String str) {
         try {
-            Integer.parseInt(array.get(i));
+            Integer.parseInt(str);
             return true;
         } catch (Exception e){
             return false;
