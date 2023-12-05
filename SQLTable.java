@@ -13,7 +13,7 @@
 
 
 class Answer {  
-    public static StringBuilder answer(String QUERY, String PARAMS){
+    public StringBuilder answer(String QUERY, String PARAMS){
         String paramsNew = PARAMS.replace('{',' ').replace('}', ' '); 
       String[] params = paramsNew.split(","); 
       StringBuilder stringBuilder = new StringBuilder(QUERY);

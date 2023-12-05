@@ -5,7 +5,6 @@
 // позициях - названия книг. Напишите метод для заполнения данной
 // структуры.
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
